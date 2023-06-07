@@ -54,7 +54,8 @@ Finalmente, Swiftic se destaca si estás buscando una solución sin código que 
 ***Redux***
 Redux es una biblioteca de administración de estado predecible y de código abierto, ampliamente utilizada en aplicaciones React y React Native. Proporciona una forma elegante de manejar el estado de la aplicación y asegurar su consistencia en toda la aplicación.
 
-#Uso de Redux en React Native
+# Uso de Redux en React Native
+
 Instalación: Primero, instala Redux y las dependencias relacionadas en tu proyecto de React Native utilizando el administrador de paquetes npm:
 Copy code
 npm install redux react-redux
@@ -68,7 +69,8 @@ Conectar componentes: Utiliza el componente Provider de react-redux para envolve
 
 Dispatch de acciones: en los componentes se pueden hacer acciones utilizando la función dispatch proporcionada por Redux. Esto activa los reducers correspondientes y actualiza el estado de la aplicación.
 
-#Context
+# Context
+
 Context es una característica de React que permite pasar datos a través del árbol de componentes sin tener que pasar manualmente las props a cada nivel. Es útil cuando se necesita compartir datos entre múltiples componentes sin tener que pasarlos explícitamente.
 
 Uso de Context en React Native
